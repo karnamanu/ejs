@@ -1,7 +1,8 @@
 const btns = document.querySelectorAll("button");
 
-for(btn of btns){
-    btn.addEventListener("click", () => {
-        console.log("button was clicked");
-    });
+for (btn of btns) {
+	btn.addEventListener("click", () => {
+		console.log("button was clicked");
+	});
 }
+console.log("hello world!");
